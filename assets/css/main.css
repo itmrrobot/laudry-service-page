@@ -76,6 +76,7 @@ body {
 .right {
   width: calc(100% - 910px - 72px);
   margin-top: 43px;
+  overflow: hidden;
 }
 
 .dicount {
