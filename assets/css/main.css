@@ -10,6 +10,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .navbar {
@@ -70,7 +71,7 @@ body {
 }
 
 .right {
-  width: calc(100% - 910px - 72px);
+  margin-right: -138px;
   margin-top: 43px;
   overflow: hidden;
 }
