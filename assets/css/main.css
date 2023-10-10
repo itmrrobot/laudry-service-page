@@ -6,11 +6,7 @@ body {
   line-height: normal;
 }
 
-.head {
-}
-
 .body {
-  /* margin-bottom: 175px; */
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -190,14 +186,14 @@ body {
   height: 523px;
 }
 
-.icon-top {
+.bubble-icon-top {
   position: absolute;
   top: 34px;
   right: 60px;
   transform: rotate(6deg);
 }
 
-.icon-down {
+.bubble-icon-down {
   position: absolute;
   right: 275px;
   transform: rotate(25deg);
