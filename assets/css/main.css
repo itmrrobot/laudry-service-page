@@ -120,6 +120,10 @@ body {
   margin-bottom: 49px;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .stats {
   display: flex;
   gap: 54px;
