@@ -6,26 +6,6 @@ body {
   line-height: normal;
 }
 
-.width-70 {
-  width: 70px;
-}
-
-.width-138 {
-  width: 138px;
-}
-
-.width-113 {
-  width: 113px;
-}
-
-.width-104 {
-  width: 104px;
-}
-
-.width-114 {
-  width: 114px;
-}
-
 .body {
   display: flex;
   width: 100%;
@@ -59,18 +39,15 @@ body {
   list-style: none;
   display: flex;
   padding: 0;
-  /* width: 709px; */
   width: 100%;
   margin-left: 258px;
   margin-right: 78px;
   justify-content: space-between;
+  gap: 42px;
 }
 
 .nav-item {
-  margin-top: 16px;
-  margin-left: 42px;
   display: flex;
-  margin-bottom: 16px;
 }
 
 .nav-link {
@@ -78,6 +55,7 @@ body {
   font-size: 22px;
   color: var(--third-color);
   font-family: "Inter", sans-serif;
+  padding: 16px 0;
   font-weight: 400;
 }
 
