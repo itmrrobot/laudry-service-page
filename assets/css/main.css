@@ -4,6 +4,8 @@ body {
   position: relative;
   font-style: normal;
   line-height: normal;
+  max-width: 100%;
+    box-sizing: border-box;
 }
 
 .body {
@@ -40,9 +42,8 @@ body {
   display: flex;
   padding: 0;
   width: 100%;
-  margin-left: 258px;
+  justify-content: end;
   margin-right: 78px;
-  justify-content: space-between;
   gap: 42px;
 }
 
